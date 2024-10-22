@@ -115,6 +115,48 @@ int main() {
     std::cout << "Double: " << double_num << std::endl;
     std::cout << "Bool: " << isValid << std::endl;
 
+    cout << "-------- Char -------- " << endl;
+    char letter = 'A';
+    std::cout << "Character: " << letter << std::endl;
+
+    cout << "-------- Integer Variants -------- " << endl;
+    short short_num = 100;
+    long long_num = 1000000;
+    unsigned int unsigned_num = 150;
+    long long long_long_num = 10000000000LL;
+
+    std::cout << "Short: " << short_num << std::endl;
+    std::cout << "Long: " << long_num << std::endl;
+    std::cout << "Unsigned int: " << unsigned_num << std::endl;
+    std::cout << "Long Long: " << long_long_num << std::endl;
+
+    cout << "-------- Floating Point Variants -------- " << endl;
+    float float_num = 3.14f;
+    long double long_double_num = 3.14159265358979323846264338327950288L;
+
+    std::cout << "Float: " << float_num << std::endl;
+    std::cout << "Double: " << double_num << std::endl;
+    std::cout << "Long Double: " << long_double_num << std::endl;
+
+    cout << "-------- Enum -------- " << endl;
+    enum Day {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+    Day today = Friday;
+
+    std::cout << "Enum Day (Friday): " << today << std::endl;
+
+    cout << "-------- Pointers -------- " << endl;
+    int* ptr = &int_num;
+    std::cout << "Pointer to int_num: " << ptr << std::endl;
+    std::cout << "Value pointed by ptr: " << *ptr << std::endl;
+
+    cout << "-------- References -------- " << endl;
+    int& ref = int_num;
+    std::cout << "Reference to int_num: " << ref << std::endl;
+
+    cout << "-------- Constants -------- " << endl;
+    const int constant_value = 42;
+    std::cout << "Constant value: " << constant_value << std::endl;
+
     cout << "-------- String -------- " << endl;
     // String
     std::string greeting = "Hello, World!";
